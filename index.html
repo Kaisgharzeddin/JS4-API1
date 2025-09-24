@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS4 - API 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="overskrift_div">
+        <div class="overskrift">
+            <h1>Actors Hub</h1>
+        </div>
+        <div class="undoverskrift">
+            <h4>Søk etter en skuespiller og få informasjon om han under! </h4>
+        </div>
+        
+        </div>
+    </div>
+    <div class="input_div">
+        <input type="text" id="oppg1_inp" placeholder="Skriv inn navn her">
+        <button id="oppg1_but">Søk</button>
+    </div>
+
+
+
+    <br>
+    <div class="container2 hidden" id="container2">
+        <div id="info_div" class="info_div">
+
+            <div class="info_div1">
+                <p style="font-weight: bold;">Name: </p>
+                <p id="name"></p>
+            </div>
+
+            <div class="info_div2">
+                <p style="font-weight: bold;">Actor: </p>
+                <p id="actor"></p>
+            </div>
+
+            <div class="info_div3">
+                <p style="font-weight: bold;">Species: </p>
+                <p id="species"></p>
+            </div>
+            
+            <div class="info_div4">
+                <p style="font-weight: bold;">Gender: </p>
+                <p id="gender"></p>
+            </div>
+            
+            <div class="info_div5">
+                <p style="font-weight: bold;">House: </p>
+                <p id="house"></p>
+            </div>
+            
+            <div class="info_div6">
+                <p style="font-weight: bold;">Date of birth: </p>
+                <p id="dateOfBirth"></p>
+            </div>
+            
+            <div class="info_div7">
+                <p style="font-weight: bold;">ancestry: </p>
+                <p id="ancestry"></p>
+            </div>
+            
+            <div class="info_div8">
+                <p style="font-weight: bold;">Eye colour: </p>
+                <p id="eyeColour"></p>
+            </div>
+            
+            <div class="info_div9">
+                <p style="font-weight: bold;">Hair color: </p>
+                <p id="hairColour"></p>
+            </div>
+        </div>
+        <div class="bilde-div">
+            <div id="bilde" class="bilde"></div>
+        </div>
+    </div>
+    <p id="feilmelding" class="hidden">Navnet du har skrevet inn er ikke inne i vår database. Skjekk om du har skrevet navnet riktig eller prøv et annet navn</p>
+
+    <script src="./index.js"></script>
+</body>
+</html>
